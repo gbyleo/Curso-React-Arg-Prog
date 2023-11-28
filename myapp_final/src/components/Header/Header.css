@@ -1,0 +1,35 @@
+header {
+   background-color: rgb(220, 165, 45);
+   width: 100%;
+   text-align: center;
+   height: 10vh;
+   align-items: center;
+   display: flex;
+
+
+}
+
+.nav{
+   width: 100%;
+   display: flex;
+   align-items: start;
+   justify-content: start;
+}
+
+.navbar-nav {
+
+   display: flex;
+   flex-direction: row;
+
+   width: 70%;
+   background-color: rgb(220, 165, 45);
+
+  justify-content: flex-start;
+   align-items: start;
+}
+
+.navbar-nav a{
+   border:3px solid  rgb(130, 99, 32);
+   align-items: center;
+ 
+}
